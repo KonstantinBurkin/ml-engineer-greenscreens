@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ml-engineer-greenscreens"
+version = "0.1.0"
+description = ""
+authors = ["Konstantin Burkin <kburkin@samokat.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+polars = "^1.23.0"
+numpy = "^2.2.3"
+joblib = "^1.4.2"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
